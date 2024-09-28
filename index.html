@@ -8,18 +8,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <header class="bg-[url('./img/Rectangle.png')]  bg-no-repeat bg-cover h-screen">
+<body class="bg-[#242B33]">
+    <header class="bg-[url('./img/Rectangle.png')]  bg-no-repeat bg-cover ">
         <nav class=" container mx-auto lg:px-16 px-4  flex flex-wrap items-center py-4 ">
             <div class="flex-1 flex justify-between items-center">
                 <a href="#" class="text-xl"><img src="./img/first-screen__logo.png" alt=""></a>
             </div>
 
             <label for="menu-toggle" class="pointer-cursor md:hidden block">
-                <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                     viewBox="0 0 20 20">
                     <title>menu</title>
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z bg-white"></path>
                 </svg>
             </label>
             <input class="hidden" type="checkbox" id="menu-toggle" />
@@ -40,12 +40,51 @@
             <h1 class="text-[48px] text-[#D4C17F] text-center mt-[200px]">Жилой комплекс <br>в историческом центре</h1>
             <div class=""><img class="mx-auto mt-[100px] " src="img/mouse.png" alt=""></div>
             <div class="flex items-center justify-center mt-[200px] text-white">
-                <div class="flex gap-[15px] "><img src="./img/placeholder.png" alt=""> <p class="mr-[100px]">Наб. реки Фонтанки 10-15</p></div>
-                <div class="flex gap-[15px]"><img src="./img/phone-call.png" alt=""> <p>8 (812) 123-45-67</p></div>
+                <div class="flex gap-[15px] mb-[74px] "><img src="./img/placeholder.png" alt=""> <p class="mr-[100px]">Наб. реки Фонтанки 10-15</p></div>
+                <div class="flex gap-[15px] mb-[74px]"><img src="./img/phone-call.png" alt=""> <p class="">8 (812) 123-45-67</p></div>
             </div>
         </header>
     </header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reprehenderit ratione, natus quae a quas neque totam quis architecto magni, incidunt aliquid. Distinctio, officiis veritatis nobis blanditiis facere adipisci quam!</p>
+    <main>
+        <section class="flex justify-center gap-[70px] text-center  ">
+            <div class="text-white text-[20px]">
+                <img class="ml-[55px] mb-[53px] mt-[120px]" src="./img/bench.png" alt="">
+                <p>Рядом исторические
+                    <br>парки и скверы</p>
+            </div>
+            <div class="text-white text-[20px]">
+                <img class="ml-[30px] mb-[53px] mt-[120px]" src="./img/building.png" alt="">
+                <p>Полностью
+                    <br>обустроенный</p>
+            </div>
+            <div class="text-white text-[20px]">
+                <img class="ml-[25px] mb-[53px] mt-[120px]" src="./img/fountain.png" alt="">
+                <p>10 фонтанов
+                   <br>на территории</p>
+            </div>
+            <div class="text-white text-[20px]">
+                <img class="ml-[23px] mb-[53px] mt-[120px]" src="./img/bicycle.png" alt="">
+                <p class="mb-[74px]">6 км
+                    <br>велодорожек</p>
+            </div>
+        </section>
+        <section class="container mx-auto flex flex-col justify-center items-center">
+            <div class="text-[#D4C17F] text-[36px] mb-[100px] ">
+                <h1 class="mr-[840px]">Наши квартиры</h1>
+            </div> 
+            <div class="flex gap-[30px] mb-[30px]">
+                <div class="w-[535px] h-[320px] bg-[url('./img/1.png')]"><p class="text-white text-[24px] ml-[50px] mt-[270px]" >Лофт — 3 этажа</p></div>
+                <div class="w-[535px] h-[320px] bg-[url('./img/2.png')]"><p class="text-white text-[24px] ml-[50px] mt-[270px]" >Лофт — 2 этажа</p></div>
+            </div>
+            <div class="flex gap-[30px]">
+                <div class="w-[535px] h-[320px] bg-[url('./img/3.png')]"><p class="text-white text-[24px] ml-[50px] mt-[270px]" >Лофт — 3 этажа</p></div>
+                <div class="w-[535px] h-[320px] bg-[url('./img/4.png')]"><p class="text-white text-[24px] ml-[50px] mt-[270px]" >Лофт — 2 этажа</p></div>
+            </div>
+        </section>
+        <section class="bg-[url('./img/Rectangle (1).png')]">
+
+        </section>
+    </main>
 </body>
 
 </html>
